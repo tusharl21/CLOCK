@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 .mdiv{
-	height: 100vh;
+	height: 100vh;	
 	width: 100%;
 	position: fixed;
 	top: 0px;
@@ -12,21 +12,32 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url("https://i.pinimg.com/originals/c9/bd/7a/c9bd7a16beae0bd10b56eb511434b73c.gif");
-	background-repeat: repeat;
-	background-size: left;
-    /*background-color: cornsilk;*/
-}
+	background-image: url(https://cdn.thewirecutter.com/wp-content/media/2022/03/20220308_DaylightSavings_TopArt_2x1.png?auto=webp&quality=75&crop=1.91:1&width=1200);
+	background-repeat: no-repeat;
+	background-size: cover;
+   /* background-image: linear-gradient(to right,rgb(151, 197, 250),rgb(209, 143, 248));
+}*/
 .content{
 	height: 320px;
-	width: 420px;
+	width: 400px;
 	box-shadow: 0px 0px 20px;
 	border-radius: 20px;
-	padding: 20px;
+	padding: 10px;
 	box-shadow: 4px solid black;
-	border-radius: 50%;
-	backface-visibility: blur 20px;
-    background-color: cornsilk;
+	border-radius: 40%;
+    background-image: url(https://i.gifer.com/embedded/download/AIK7.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: white;
+    font-family: arial black;
 
-	
+
 }
+.inner_ex{
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+	}
